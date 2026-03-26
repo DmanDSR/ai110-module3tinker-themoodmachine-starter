@@ -50,6 +50,17 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "are you dead ass right now bro",
+    "no cap this is the best day ever 😂",
+    "I'm so done with everything rn 😭",
+    "lowkey obsessed with this song rn",
+    "I absolutely love waiting in line for an hour 🙂",
+    "proud of myself but also lowkey embarrassed lol",
+    "just vibing I guess",
+    "highkey stressed about finals 💀",
+    "it do be like that sometimes 🥲",
+    "this hits different fr fr",
+    "not me crying over a show again",
 ]
 
 # Human labels for each post above.
@@ -65,9 +76,20 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",    # "are you dead ass right now bro"
+    "positive", # "no cap this is the best day ever 😂"
+    "negative", # "I'm so done with everything rn 😭"
+    "positive", # "lowkey obsessed with this song rn"
+    "negative", # "I absolutely love waiting in line for an hour 🙂"  (sarcasm)
+    "mixed",    # "proud of myself but also lowkey embarrassed lol"
+    "neutral",  # "just vibing I guess"
+    "negative", # "highkey stressed about finals 💀"
+    "mixed",    # "it do be like that sometimes 🥲"
+    "positive", # "this hits different fr fr"
+    "negative", # "not me crying over a show again"
 ]
 
-# TODO: Add 5-10 more posts and labels.
+# TODO completed: Added 10 more posts and labels.
 #
 # Requirements:
 #   - For every new post you add to SAMPLE_POSTS, you must add one
